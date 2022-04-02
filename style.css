@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 1800px;
+}
+
+header{
+    background: url(./images/Sample\ 61.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0 0 85% 85%/30%;
+}
+
+header .overlay{
+    height: 100%;
+    width: 100%;
+    padding: 75px;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #444;
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+
+h3, p{
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+}
+
+button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    color: #fff;
+    background: #333;
+    box-shadow: 0 3px 20px 0 #00003b;
+    margin-bottom: 50px;
+    border-radius: 30px;
+}
